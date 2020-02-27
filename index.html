@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Bubble Chart</title>
+
+<body>
+<style>
+body {
+	background-color: #87a0b4;
+}
+h1{
+  text-decoration: underline;
+color: #003366;
+}
+h2{
+color: #003366;
+}
+svg{
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+p{
+color: #003366;
+}
+</style>
+<h1> Bubble chart: refugee population by country (for the year 2018). </h1>
+<h2> To find out more information, click the circle. Use your mouse to zoom in and out. </h2>
+<p> The size of the bubble represents the population of refugees for that country. The bigger the bubble, the larger the population. The color key allows for easy viewing. Smaller bubbles can be viewed by zooming in. </p>
+<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+<div class="bubble-container" style="position: absolute, width: 100%;"></div>
+<script src="index.js"></script>
+
+
+</html>
+</body>
